@@ -70,6 +70,8 @@ from qcodes.instrument.parameter import (
     CombinedParameter)
 from qcodes.instrument.sweep_values import SweepFixedValues, SweepValues
 
+from qcodes.instrument.station_configurator import StationConfigurator 
+
 from qcodes.utils import validators
 from qcodes.utils.zmq_helpers import Publisher
 from qcodes.instrument_drivers.test import test_instruments, test_instrument
