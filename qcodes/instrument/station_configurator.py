@@ -15,7 +15,7 @@ from qcodes.monitor.monitor import Monitor
 
 use_pyyaml = False
 try:
-    from ruamel.yaml import YAML
+    from ruamel_yaml import YAML
 except ImportError:
     use_pyyaml = True
     warnings.warn("ruamel yaml not found station configurator is falling back to pyyaml. "
